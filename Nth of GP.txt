@@ -1,0 +1,7 @@
+function nthofGP(a, r, n) 
+{ 
+    return a * Math.floor(Math.pow(r, n - 1)); 
+}
+       
+var res = nthofGP(4,5,6);
+console.log(res);

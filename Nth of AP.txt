@@ -1,0 +1,9 @@
+vara = 2, b = 5;
+var n = 7;
+var findnthAP(first, second, num){
+   const diff = second - first;
+   const fact = (num - 1) * diff;
+   const term = first + fact;
+   return term;
+};
+console.log(findnthAP(a, b, n));
